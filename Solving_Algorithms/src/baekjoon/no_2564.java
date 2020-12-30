@@ -2,18 +2,18 @@ package baekjoon;
 
 import java.util.Scanner;
 
-// °æºñ¿ø ¡Ú
+// ê²½ë¹„ì› â˜…
 public class no_2564 {
-    static int c; //°¡·Î
-    static int r; //¼¼·Î
+    static int c; 
+    static int r; 
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         
         c = sc.nextInt();
         r = sc.nextInt();
-        int circumference = (c+r)*2; // µÑ·¹
-        int store = sc.nextInt(); // »óÁ¡ÀÇ °³¼ö
-        int[] dist = new int[store+1]; // µ¿±ÙÀÌ °Å¸® + »óÁ¡ÀÇ °Å¸®
+        int circumference = (c+r)*2; // ë‘˜ë ˆ
+        int store = sc.nextInt(); // ìƒì ì˜ ê°¯ìˆ˜
+        int[] dist = new int[store+1]; // ë™ê·¼ì´ ê±°ë¦¬ + ìƒì ì˜ ê±°ë¦¬
         
         for(int i=0; i<dist.length; i++){
             int direction = sc.nextInt();
@@ -21,7 +21,7 @@ public class no_2564 {
             
             dist[i] = dist_calc(direction, pos);
         }
-        int start = dist[store]; // µ¿±ÙÀÌ °Å¸® = ½ÃÀÛÁ¡
+        int start = dist[store]; // ë™ê·¼ì´ ê±°ë¦¬ = ì‹œì‘ì 
         
         int sum = 0;
         for(int i=0; i<dist.length-1; i++){

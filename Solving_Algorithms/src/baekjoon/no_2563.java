@@ -2,7 +2,7 @@ package baekjoon;
 
 import java.util.Scanner;
 
-// »öÁ¾ÀÌ
+// ìƒ‰ì¢…ì´
 public class no_2563 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
@@ -17,7 +17,7 @@ public class no_2563 {
             
             for(int k=row; k<row+10; k++){
                 for(int z=col; z<col+10; z++){
-                	// °ãÄ¡´Â ºÎºĞ Á¦¿ÜÇÏ°í count
+                	// ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½Îºï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ count
                     if(paper[k][z] != 1){
                         paper[k][z] = 1;
                         count++;

@@ -2,7 +2,7 @@ package baekjoon;
 
 import java.util.Scanner;
 
-// ºù°í
+// ë¹™ê³ 
 public class no_2578 {
     static int N = 5;
     static int[][] bingo;

@@ -2,7 +2,7 @@ package baekjoon;
 
 import java.util.Scanner;
 
-// ÀÏ°ö ³­ÀïÀÌ
+// ì¼ê³± ë‚œìŸì´
 public class no_2309 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
@@ -14,7 +14,7 @@ public class no_2309 {
             result += arr[i];
         }
         
-        // ¿À¸§Â÷¼ø Á¤·Ä
+        // ì˜¤ë¦„ì°¨ìˆœ ì •ë ¬
         for(int i=0; i<arr.length-1; i++){
             for(int j=i+1; j<arr.length; j++){
                 if(arr[i]>arr[j]){

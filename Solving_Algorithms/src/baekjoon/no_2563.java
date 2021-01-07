@@ -17,7 +17,6 @@ public class no_2563 {
             
             for(int k=row; k<row+10; k++){
                 for(int z=col; z<col+10; z++){
-                	// ��ġ�� �κ� �����ϰ� count
                     if(paper[k][z] != 1){
                         paper[k][z] = 1;
                         count++;
